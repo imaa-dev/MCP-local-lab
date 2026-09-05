@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/imaa-dev/MCP-local-lab#readme",
   "dependencies": {
+    "@modelcontextprotocol/client": "^2.0.0",
     "@modelcontextprotocol/server": "^2.0.0",
+    "ollama": "^0.6.3",
     "zod": "^4.5.4"
   },
   "devDependencies": {
