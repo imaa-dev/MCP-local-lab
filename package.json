@@ -8,7 +8,7 @@
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "agent": "npm run build && node dist/agent.js",1;
+    "agent": "npm run build && node dist/agent.js",
     "mcp:stdio": "tsx src/stdio.ts",
     "mcp:http": "tsx src/http.ts"
   },
