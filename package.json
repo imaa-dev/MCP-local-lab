@@ -8,7 +8,9 @@
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "agent": "npm run build && node dist/agent.js"
+    "agent": "npm run build && node dist/agent.js",1;
+    "mcp:stdio": "tsx src/stdio.ts",
+    "mcp:http": "tsx src/http.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/imaa-dev/MCP-local-lab#readme",
   "dependencies": {
     "@modelcontextprotocol/client": "^2.0.0",
+    "@modelcontextprotocol/node": "^2.0.0",
     "@modelcontextprotocol/server": "^2.0.0",
     "ollama": "^0.6.3",
     "zod": "^4.5.4"
